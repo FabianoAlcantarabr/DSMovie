@@ -53,16 +53,15 @@ header {
     margin-right: 10px;
  }
   #DSMovies-card-list {
-      padding: 40px;
+      padding: 40px 0;
   }
-
 
   .DSMovies-Card{
-      width: 360px;
-      
+      width: 100%;
+          
   }
   .DSMovies-Card img {
-    width:100% ;
+    width:100%;
     border-radius: 8px 8px 0 0;
   }
     .DSMovies-card-description {
@@ -70,13 +69,16 @@ header {
       display: flex; 
       flex-direction: column;
       align-items: center;
-      padding: 10px 0 20px 0;
-      border-radius: 0 0 8px 8px;
+      justify-content: space-between;
+      padding: 10px 20px 20px 20px;
+      border-radius:0 0 8px 8px;
+      min-height: 150px;
   }
   .DSMovies-card-description h3 {
       font-size: 14px;
       font-weight: 700;
       margin-bottom: 25px;
+      text-align: center;
 
   }
   .DSMovies-btm, .DSMovies-btm:hover {
