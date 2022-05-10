@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
-html, body{
+html, body {
     background-color: var(--bg-gray) ;
 }
 header {
@@ -26,13 +26,13 @@ header {
     display: flex;
     align-items: center;
  }
- nav{
+ nav {
      display: flex;
      align-items: center;
      justify-content: space-between;
     
  }
- nav h1{
+ nav h1 {
      font-size: 24px;
      font-weight: 700;
  }
@@ -41,27 +41,27 @@ header {
      font-weight: 400;
  }
 
- a, a:hover{
+ a, a:hover {
      text-decoration: none;
      color: unset;
  }
- .DSMovies-container-container{
+ .DSMovies-container-container {
      display: flex;
      align-items: center;
  }
- .DSMovies-container-container img{
+ .DSMovies-container-container img {
     margin-right: 10px;
  }
   #DSMovies-card-list {
       padding: 40px 0;
   }
 
-  .DSMovies-Card{
+  .DSMovies-Card {
       width: 100%;
           
   }
   .DSMovies-Card img {
-    width:100%;
+    width: 100%;
     border-radius: 8px 8px 0 0;
   }
     .DSMovies-card-description {
