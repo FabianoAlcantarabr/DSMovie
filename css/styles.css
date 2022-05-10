@@ -5,20 +5,24 @@
     --color-primary:#4D41C0;
     --white: #fff;
     --text-gray: #4a4a4a;
-
-
+    --text-light-gray: #aaa;
+    --star-yellow: #ffbb3a;
 }
-* { 
+
+*{ 
+    margin: 0;
     box-sizing: border-box;
-    font-family: "Open Sans" , sans-serif ;
+    font-family: "Open Sans", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
 html, body {
-    background-color: var(--bg-gray) ;
+    background-color: var(--bg-gray);
 }
+
 header {
     background-color: var(--color-primary);
     color: var(--white);
@@ -26,62 +30,69 @@ header {
     display: flex;
     align-items: center;
  }
- nav {
+
+nav {
      display: flex;
      align-items: center;
-     justify-content: space-between;
-    
+     justify-content: space-between; 
  }
- nav h1 {
+
+nav h1 {
      font-size: 24px;
      font-weight: 700;
  }
- nav a {
-     font-size: 12;
+
+nav a {
+     font-size: 12px;
      font-weight: 400;
  }
 
- a, a:hover {
+a, a:hover {
      text-decoration: none;
      color: unset;
  }
- .DSMovies-container-container {
+
+.dsmovies-contact-container {
      display: flex;
      align-items: center;
  }
- .DSMovies-container-container img {
+
+.dsmovies-contact-container img {
     margin-right: 10px;
  }
-  #DSMovies-card-list {
+
+#dsmovies-card-list {
       padding: 40px 0;
   }
 
-  .DSMovies-Card {
-      width: 100%;
-          
+.dsmovies-card {
+      width: 100%;          
   }
-  .DSMovies-Card img {
+
+.dsmovies-card img {
     width: 100%;
     border-radius: 8px 8px 0 0;
   }
-    .DSMovies-card-description {
+
+.dsmovies-card-description {
       background-color: var(--white);
+      padding: 10px 20px 20px 20px;
       display: flex; 
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px 20px 20px;
-      border-radius:0 0 8px 8px;
+      justify-content: space-between;      
+      border-radius: 0 0 8px 8px;
       min-height: 150px;
   }
-  .DSMovies-card-description h3 {
-      font-size: 14px;
+
+.dsmovies-card-description h3 {
+      font-size: 18px;
       font-weight: 700;
       margin-bottom: 25px;
       text-align: center;
-
   }
-  .DSMovies-btm, .DSMovies-btm:hover {
+
+.dsmovies-btn, .dsmovies-btn:hover {
      width: 180px;
      height: 40px; 
      background-color: var(--color-primary);
@@ -91,7 +102,7 @@ header {
      display: flex;
      align-items: center;
      justify-content: center;
-     border-radius: 4px;
-
-
+     border-radius: 4px;    
   }
+
+ 
