@@ -33,10 +33,30 @@
                 <div>
                     <div class="dsmovies-card">
                         <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/t9hNIUFcy0tYu55IPxjxRTTdZ6X.jpg" alt="365 Dias">
-                        <div class="dsmovies-card-description">
+                        <div class="dsmovies-form-description">
                             <h3>365 Dias</h3>
-                            <h4>3.8</h4>                            
-                            <a class="dsmovies-btn" href="index.html">Cancelar</a>                                 
+                            <form class="dsmovies-form" >
+                                <div class="form-group dsmovies-form-group">
+                                 <label for="email"> Imforme seu e-mail</label>       
+                                 <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group dsmovies-form-group">
+                                 <label for="Score">Informe sua Avaliação</label>
+                                 <select class="form-control" name="Score" id="Score">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                 </select>
+                                </div>
+                                <div class="dsmovies-form-btn-container">
+                                    <button class="dsmovies-btn" type="Submit">Salvar</button>
+                                    <a class="dsmovies-btn" href="index.html">Cancelar</a>
+                                    
+                                </div>
+                            </form>                                                      
+                                                            
                         </div>
                     </div>
                 </div>
